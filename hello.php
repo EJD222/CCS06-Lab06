@@ -7,5 +7,6 @@ function greet() {
 
     return $message;
 }
-echo greet() . "The date today is " . date("Y-m-d") . ".";
+
+echo greet() . "The date today is " . date("F j, Y") . ".";
 ?>
